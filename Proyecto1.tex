@@ -1,0 +1,73 @@
+\documentclass[a4paper,10pt,twoside]{thesis}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{makeidx}
+\usepackage{pdflscape}
+\usepackage{enumerate}
+
+
+%%%%%%%%%%%%%%%%
+% TITULO DEL PROYECTO
+%%%%%%%%%%%%%%%%
+\titulo{Modelado, prueba y verificaci\'on de sistemas distribuidos usando RTDS e IFx}
+
+%%%%%%%
+% AUTORES
+%%%%%%%
+\autorA{3000061050}{Juan Pablo Gir\'on Ruiz}
+%\autorB{COD}{Segundo Autor} %Opcional
+
+%%%%%%%
+% FECHA DE ENTREGA
+%%%%%%%
+
+\fecha{1 de Julio de 2014}
+
+%%%%%%%%%%%%%%%%%
+% DIRECTOR DEL PROYECTO
+% DIRECTOR DE CARRERA
+%%%%%%%%%%%%%%%%%
+
+\directorproyectoA{Dr.}{Eugenio Tamura}
+
+\directorcarreraelectronica{Dra.}{Ana Victoria Prados}
+
+
+\include{format}
+\makeindex
+
+\begin{document}
+
+\maketitle
+\makecoverletter
+
+
+\begin{abstract}
+
+
+\end{abstract}
+
+\tableofcontents
+
+\chapter*{Introducci\'on}
+\input{introduccion.tex}
+
+\chapter{DESCRIPCI\'ON DEL PROBLEMA}
+\input{descripcion.tex}
+
+\chapter{MARCO DE REFERENCIA}
+\input{desarrollo.tex}
+
+
+\bibliography{library2}
+\bibliographystyle{alpha}
+
+
+\end{document}          

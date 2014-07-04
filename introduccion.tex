@@ -1,0 +1,89 @@
+
+
+\noindent La complejidad de los sistemas tanto en Hardware como en Software se 
+ha venido  incrementando significativamente y por ende la probabilidad que los 
+sistemas presenten fallas aumenta~\cite{Schneider2004}. Diversas \'areas de 
+las ciencias de la computaci\'on y matem\'aticas han propuesto diferentes 
+metodolog\'ias que permiten obtener sistemas Hardware/Software con un m\'inimo 
+de errores; dichas metodolog\'ias estructuran la descripci\'on del sistema a 
+trav\'es de m\'etodos formales o no formales, los cuales se pueden evaluar 
+implementando desde una prueba de caja negra \footnote{Prueba de caja negra: Es 
+una prueba funcional que consiste en estimular el sistema a probar con las 
+entradas apropiadas que debe recibir la aplicaci\'on, y revisar si las salidas 
+son las deseadas; lo anterior se lleva a cabo sin tener conocimiento de la 
+estructura/funcionamiento interno del sistema.} hasta el uso de m\'etodos 
+formales.
+
+Garantizar que un sistema no tenga errores se ha convertido en un reto cada vez 
+m\'as dif\'icil para la ingenier\'ia y las ciencias de las matem\'aticas. 
+Existen sistemas en los cuales no se admiten errores, por ejemplo en los 
+sistemas de aviaci\'on, sistemas de control de plantas nucleares, etc. 
+~\cite{Bowen2000}. Sin embargo, a pesar que existen m\'etodos de 
+verificaci\'on, validaci\'on y prueba de modelos, la complejidad de los sistemas 
+se ha venido incrementando con gran rapidez y la forma de detectar errores con 
+m\'etodos separados es insuficiente~\cite{Bowen2002}. 
+
+Durante d\'ecadas se ha visto que los m\'etodos formales (\textit{formal 
+methods}) y las pruebas  (\textit{Testing})  han sido rivales;  en efecto, 
+cientos de cient\'ificos defienden que verificar los modelos por medio de 
+estructuras de l\'ogica matem\'atica bien definidas est\'a por encima de hacer 
+simples pruebas funcionales, como lo son las de caja negra.  No obstante, 
+recientemente se ha visto que los m\'etodos formales y las pruebas son 
+complementarios, pero lastimosamente aplicar estas metodolog\'ias para 
+garantizar sistemas libres de errores est\'a muy lejos de ser realidad~\cite{Bowen2002, Gaudel1996, Hierons2009}. 
+
+Uno de los m\'as famosos m\'etodos formales usados en la industria es el Model 
+Checking~\cite{Mikovski2009}, el cual es una t\'ecnica de verificaci\'on 
+autom\'atica que dado un modelo y una propiedad formal determina si dicho modelo 
+la satisface, y en caso que no pueda hacerlo es capaz de informarle al 
+desarrollador d\'onde est\'a el error para corregirlo~\cite{Arias2012, 
+Mikovski2009}. 
+
+Por otra parte, uno de los lenguajes m\'as conocidos a nivel mundial para 
+realizar pruebas funcionales de caja negra es \textit{Testing and Test Control 
+Notation Version 3}, TTCN-3,~\cite{Willcock2011,  ETSI}, el cual ha 
+sido desarrollado y estandarizado por \textit{European Telecommunication 
+Standards Institute}, ETSI. TTCN-3 provee diversas caracter\'isticas en cuanto 
+al manejo de mensajes, niveles de abstracci\'on, m\'odulos para codificaci\'on 
+y decodificaci\'on de los mensajes, entre otras~\cite{Willcock2011,ETSI}.
+
+El esquema que se pretende llevar a cabo en este trabajo de grado es: 
+
+\begin{itemize}
+\item Mostrar la especificaci\'on y descripci\'on de un sistema a partir de 
+m\'aquinas de estados finitas usando el lenguaje \textit{Specification and 
+Description Language} (SDL) y su interacci\'on usando \textit{Message Sequence 
+Chart}\footnote{M\'as informaci\'on de MSC referirse a la recomendaci\'on Z.120 
+disponible en:  https://www.itu.int/rec/T-REC-Z.120-201102-I/en}(MSC).
+\item Una vez obtenido el modelo del sistema, mostrar c\'omo a partir de 
+pruebas funcionales de tipo caja negra se puede ejercitar el modelo en los 
+niveles m\'as finos  de abstracci\'on. 
+\item Para comprobar que el sistema sea confiable, se verificar\'a formalmente 
+algunas de las propiedades del sistema, las cuales se consideren m\'as 
+cr\'iticas para su funcionamiento.
+\item Para ejecutar los anteriores pasos, se tomar\'a como caso de estudio la 
+zona de parqueaderos de autom\'oviles de la Pontificia Universidad Javeriana 
+Cali; \'este caso ser\'a \'util para mostrar que el trabajo en conjunto de 
+pruebas y verificaciones formales,  garantiza  sistemas confiables que pueden 
+ser implementados.
+
+\end{itemize}
+
+Para la descripci\'on y especificaci\'on del sistema se va a hacer uso de SDL y 
+MSC, para las pruebas funcionales de caja negra se va a utilizar TTCN-3, y 
+finalmente para las verificaciones formales se hace uso de IFx\footnote{M\'as 
+Informaci\'on de la herramienta: http://www-if.imag.fr/}, la cual es una 
+herramienta desarrollada por VERIMAG que por medio del acceso al \'arbol 
+abstracto desde una especificaci\'on de SDL la traslada a un lenguaje intermedio 
+llamado IF,  y a trav\'es de este \'ultimo se puede verificar usando un 
+algoritmo de \textit{Model Checking}\footnote{Model checking es una t\'ecnica 
+de verificaci\'on que, dado el modelo del sistema bajo estudio y la propiedad 
+requerida, permite decidir autom\'aticamente si la propiedad es satisfecha o no 
+~\cite{Clarke1996,Hames2009}}, que ya viene 
+integrado en la herramienta. Un factor diferenciador que se le quiere dar al 
+trabajo de grado es poder hacer uso de los tres lenguajes mencionados 
+anteriormente con un \'unico software que se llama \textit{Real Time Developer 
+Studio}\footnote{M\'as Informaci\'on del proveedor del 
+software:http://www.pragmadev.com/}, RTDS, software desarrollado por la 
+compa\~n\'ia Francesa \textit{Pragmadev}.
+

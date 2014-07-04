@@ -1,0 +1,149 @@
+
+
+\section{Planteamiento del Problema}
+
+La complejidad de los sistemas de Software/Hardware se ha venido incrementando 
+significativamente debido a las necesidades de la industria 
+~\cite{Clarke1996,Schneider2004,AlexeiSernaA}; debido a estas exigencias, la 
+confiabilidad de dichos sistemas es un tema que est\'a siendo abordado desde 
+diversos campos de las ciencias de la computaci\'on y las matem\'aticas. Es 
+necesario garantizar que los modelos a implementar satisfagan propiedades de 
+funcionamiento y sobre todo que sean seguros en situaciones donde la vida humana 
+est\'e en juego~\cite{Gaudel1996,Bowen2000}, como por ejemplo: en los sistemas 
+involucrados en el campo de la aviaci\'on, y otros medios de transporte, etc.
+
+Actualmente, entre las m\'as conocidas metodolog\'ias que existen para la 
+detecci\'on y depuraci\'on de errores, se encuentran las pruebas funcionales a 
+sistemas y el uso de m\'etodos formales; sin embargo, a pesar de su existencia, 
+es cada vez m\'as complejo garantizar sistemas sin errores haciendo uso de una 
+sola t\'ecnica~\cite{Gaudel1996}. Por ejemplo, los m\'etodos formales se 
+fundamentan en estructuras de l\'ogica matem\'atica bien definidas que no son 
+tan sencillas de usar en diferentes etapas del desarrollo del sistema, debido 
+que exigen una alta demanda de tiempo y contar con personal altamente entrenado 
+~\cite{AlexeiSernaA}; por otra parte, tampoco ser\'ia conveniente usar s\'olo 
+pruebas funcionales a sistemas de seguridad cr\'itica pretendiendo garantizar 
+el correcto funcionamiento al cien por ciento.
+
+Por lo anterior, dado el incremento acelerado tanto en la complejidad como en la 
+aplicaci\'on de los sistemas embebidos, es indispensable garantizar la 
+confiabilidad de su funcionamiento haciendo uso combinado de dos metodolog\'ias 
+para la detecci\'on de errores en modelos a implementar, en este caso se trata 
+de los ya mencionados M\'etodos formales y Pruebas funcionales.
+
+\subsection{Formulaci\'on}
+
+¿Es posible minimizar el n\'umero de errores en un sistema, usando en conjunto 
+t\'ecnicas de m\'etodos formales y pruebas sobre diferentes etapas de desarrollo 
+del sistema?
+
+\subsection{Sistematizaci\'on}
+
+\begin{enumerate}
+ \item ¿Por qu\'e es necesario representar los sistemas a trav\'es de lenguajes 
+formales?
+\item ¿Cu\'al lenguaje formal permite expresar un sistema a trav\'es de 
+m\'aquinas de estados finitas?
+\item ¿Qu\'e tipo de t\'ecnicas son apropiadas para verificar si un sistema 
+satisface unas condiciones dadas?
+\item ¿C\'omo diferenciar en qu\'e etapas del desarrollo de un sistema es 
+conveniente aplicar m\'etodos formales o pruebas?
+\item ¿C\'omo usar estructuras de l\'ogica matem\'atica para verificar 
+modelos?
+\end{enumerate}
+
+\subsection{Posible t\'itulo del trabajo de grado}
+Para definir el t\'itulo del trabajo de grado se han especificado las fases y 
+las herramientas a usar en la verificaci\'on del correcto funcionamiento de un 
+sistema distribuido, el cual empieza desde su descripci\'on en un lenguaje que 
+no tenga ambigüedades y que se pueda manipular f\'acilmente para optimizar, 
+probar y verificar a trav\'es de m\'etodos formales. Por lo anterior se 
+defini\'o el siguiente t\'itulo:
+
+\textbf{\textit{“MODELADO, PRUEBA Y VERIFICACI\'oN DE SISTEMAS DISTRIBUIDOS 
+USANDO RTDS e IFx”}}
+
+
+\section{Objetivos}
+
+\subsection{Objetivo general}
+
+Mostrar el proceso de verificaci\'on del correcto funcionamiento de un modelo 
+que representa un sistema distribuido, empleando un caso de estudio a partir de 
+la uni\'on de dos metodolog\'ias: M\'etodos Formales y pruebas funcionales de 
+caja negra, en diferentes etapas del desarrollo de sistemas usando las 
+herramientas RTDS e IFx.
+
+\subsection{Objetivos Espec\'ificos}
+\begin{enumerate}
+ \item Comprender el correcto funcionamiento de la herramienta Real Time 
+Developer Studio.
+\item Implementar el caso de estudio usando un lenguaje que no introduzca 
+errores por ambigüedades en la descripci\'on, el cual posteriormente ser\'a 
+verificado por medio de m\'etodos formales y pruebas.
+\item Determinar en qu\'e etapas del desarrollo de sistemas es pertinente usar 
+m\'etodos formales o pruebas.
+\item Implementar una bater\'ia de pruebas incrementales que sea apropiada con 
+el modelo del caso de estudio y compatible con el lenguaje en el cual ha sido 
+expresado.
+\item Entender el funcionamiento de IFx para verificar formalmente el modelo 
+del caso de estudio.
+\item Definir las propiedades cr\'iticas del sistema que se desea verificar.
+\item Seleccionar los tipos de observadores para la especificaci\'on de la 
+propiedad a verificar.
+\item Seleccionar las propiedades a verificar.
+\item Implementar los observadores.
+\end{enumerate}
+
+\section{Justificaci\'on}
+
+Tanto la verificaci\'on formal como las pruebas funcionales son metodolog\'ias 
+que ayudan a la detecci\'on y correcci\'on de errores de modelos que se van a 
+implementar. A lo largo del tiempo encontramos en la literatura que \'estas dos 
+metodolog\'ias han sido rivales; sin embargo, recientemente se puede apreciar 
+que las ciencias computacionales y las matem\'aticas proponen que la mejor forma 
+de verificar si un modelo satisface unas condiciones dadas, implica 
+necesariamente usar estas dos t\'ecnicas en conjunto~\cite{Gaudel1996}. 
+
+En el a\~no 2001 en la Universidad de Brunel, Reino Unido, se cre\'o una red 
+llamada M\'etodos Formales y Pruebas, conocida por sus siglas en ingl\'es como 
+FORTEST que significa Formal Methods and Testing. Esta red fue financiada por el 
+Consejo de Investigaci\'on de Ciencias f\'isicas e Ingenier\'ia, por sus siglas 
+en ingl\'es EPSRC\footnote{Sitio Web de 
+EPSRC: \url{http://www.epsrc.ac.uk/Pages/default.aspx}}. El enfoque principal 
+de 
+FORTEST era explorar caminos que 
+permitieran mostrar que los m\'etodos formales y el software de pruebas son 
+complementarios, y as\'i facilitar los enfoques y t\'ecnicas 	que permitan 
+producir software de alta 
+calidad\footnote{
+\url{http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/R43150/01 
+}}.
+
+Por lo tanto, el presente trabajo de grado pretende mostrar a lo largo de su 
+desarrollo que es posible dise\~nar sistemas confiables usando tanto las pruebas 
+como los m\'etodos formales para la detecci\'on y correcci\'on de errores, 
+bas\'andose en las investigaciones de la red FORTEST.
+
+\section{Alcances y Limitaciones}
+
+\begin{itemize}
+ \item El proceso de modelado del caso de estudio se har\'a por medio 
+de un lenguaje que no posea ambigüedades adem\'as de soportarlo la herramienta 
+Real Time Developer Studio, en este caso ser\'a SDL.
+\item El modelo del caso de estudio se limitar\'a a especificar de manera 
+general los procesos involucrados; algunos de ellos se asumir\'an como 
+subsistemas, los cuales proporcionando una entrada retornan una salida, pero no 
+se modelar\'a su comportamiento dado que no es de inter\'es del presente trabajo 
+de grado desarrollarlo. Ej.: modelar la base de datos de usuarios del 
+parqueadero. 
+\item Las pruebas realizadas al modelo se har\'an en las primeras fases del 
+desarrollo del mismo y de forma serial usando SDL, MSC y TTCN3.
+\item Las verificaciones formales no se har\'an en el nivel de sistema, sino 
+sobre m\'odulos espec\'ificos.
+\item Se har\'a uso de la herramienta SDL2IF para la transformaci\'on del 
+modelo descrito en SDL a IF, con el fin de verificarlo formalmente.
+\item Los procesos de modelado y pruebas se har\'an usando la herramienta Real 
+Time Developer Studio, y la parte de verificaci\'on formal se har\'a por medio 
+de la herramienta IFx.
+\end{itemize}
+

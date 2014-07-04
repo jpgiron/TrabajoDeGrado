@@ -1,0 +1,158 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{WDT{\etalchar{+}}11}
+
+\bibitem[AO08]{Ammann2008}
+Paul Ammann and Jeff Offutt.
+\newblock {\em {Introduction to Software Testing (Google eBook)}}.
+\newblock Cambridge University Press, 2008.
+
+\bibitem[Ari12]{Arias2012}
+Jaime Arias.
+\newblock {Model Checking for tcc Calculus}.
+\newblock 2012.
+
+\bibitem[BBC{\etalchar{+}}02]{Bowen2002}
+J.P. Bowen, K.~Bogdanov, J.A. Clark, M.~Harman, R.M. Hierons, and P.~Krause.
+\newblock {FORTEST: formal methods and testing}.
+\newblock In {\em Proceedings 26th Annual International Computer Software and
+  Applications}, pages 91--101. IEEE Comput. Soc, 2002.
+
+\bibitem[BGI{\etalchar{+}}04]{Bozga2004}
+Marius Bozga, Susanne Graf, Ober Ileana, Ober Iulian, and Sifakis Joseph.
+\newblock {\em {Formal Methods for the Design of Real-Time Systems}}, volume
+  3185 of {\em Lecture Notes in Computer Science}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2004.
+
+\bibitem[BK08]{Baier2008}
+Christel Baier and Joost-Pieter Katoen.
+\newblock {\em {Principles of Model Checking}}.
+\newblock Mit Press, 2008.
+
+\bibitem[Bow00]{Bowen2000}
+Jonathan~P. Bowen.
+\newblock {The Ethics of Safety-Critical Systems}.
+\newblock {\em Communications of the ACM}, 43:91----97, 2000.
+
+\bibitem[BP06]{BravoParra2006}
+Adolfo Bravo and Jaime Parra.
+\newblock {Verificaci\'{o}n formal de Sistemas}.
+\newblock Technical report, Universidad Autonoma Metropolitana Unidad de
+  Iztapalapa, Mexico, 2006.
+
+\bibitem[CW96]{Clarke1996}
+Edmund~M. Clarke and Jeannette~M. Wing.
+\newblock {Formal methods: state of the art and future directions}.
+\newblock {\em ACM Computing Surveys}, 28(4):626--643, December 1996.
+
+\bibitem[Ebn]{Ebner}
+Michael Ebner.
+\newblock {TTCN-3 Test Case Generation from Message Sequence Charts}.
+
+\bibitem[ETS]{ETSI}
+ETSI.
+\newblock {Introduction TTCN-3}.
+
+\bibitem[Fix08]{Fix2008}
+Limor Fix.
+\newblock {\em {25 Years of Model Checking}}, volume 5000 of {\em Lecture Notes
+  in Computer Science}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, January 2008.
+
+\bibitem[GHR{\etalchar{+}}03]{Grabowski2003}
+Jens Grabowski, Dieter Hogrefe, Gy\"{o}rgy R\'{e}thy, Ina Schieferdecker,
+  Anthony Wiles, and Colin Willcock.
+\newblock {An introduction to the testing and test control notation (TTCN-3)}.
+\newblock {\em Computer Networks}, 42(3):375--403, June 2003.
+
+\bibitem[Ham09]{Hames2009}
+Edgardo Hames.
+\newblock {\em {Falluto : Un model checker para la verificaci\'{o}n de sistemas
+  tolerantes a fallas}}.
+\newblock PhD thesis, Universidad Nacional de C\'{o}rdoba, 2009.
+
+\bibitem[HKL{\etalchar{+}}09]{Hierons2009}
+Robert~M. Hierons, Paul Krause, Gerald L\"{u}ttgen, Anthony J.~H. Simons,
+  Sergiy Vilkomir, Martin~R. Woodward, Hussein Zedan, Kirill Bogdanov,
+  Jonathan~P. Bowen, Rance Cleaveland, John Derrick, Jeremy Dick, Marian
+  Gheorghe, Mark Harman, and Kalpesh Kapoor.
+\newblock {Using formal specifications to support testing}.
+\newblock {\em ACM Computing Surveys}, 41(2):1--76, February 2009.
+
+\bibitem[Hoa96]{Gaudel1996}
+C.A.R Hoare.
+\newblock {\em {How Did Software Get So Reliable Without Proof?}}, volume 1051
+  of {\em Lecture Notes in Computer Science}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1996.
+
+\bibitem[Hom13]{Homes2013}
+Bernard Hom\`{e}s.
+\newblock {\em {Fundamentals of Software Testing}}.
+\newblock John Wiley \& Sons, 2013.
+
+\bibitem[IEE94]{IEEE1994}
+{IEEE Guide for Software Verification and Validation Plans}.
+\newblock pages i--87, 1994.
+
+\bibitem[ISO13]{ISOIEC29119}
+{Software and systems engineering Software testing Part 1:Concepts and
+  definitions}.
+\newblock pages 1--64, September 2013.
+
+\bibitem[IT02]{SDL2002}
+ITU-T.
+\newblock {\em {ITU-T Rec. Z.100 -- Formal description techniques (FDT) --
+  Specification and Description Language (SDL)}}, 2002.
+
+\bibitem[{Jen}99]{JensGrabowski1999}
+Beat~Koch {Jens Grabowski}.
+\newblock {SDL and MSC Based Test Generation for Distributed Test
+  Architectures}.
+\newblock 1999.
+
+\bibitem[Kro99]{Kropf1999}
+Thomas Kropf.
+\newblock {\em {Introduction to Formal Hardware Verification}}.
+\newblock Springer, 1999.
+
+\bibitem[MMT09]{Mikovski2009}
+Iv\'{a}n~Georgiev Mikovski, Jos\'{e} Antonio~Gonz\'{a}lez Mart\'{\i}nez, and
+  Nicol\'{a}s~Mon Trotti.
+\newblock {FlexiMC Framework: framework flexible para model checking}.
+\newblock 2009.
+
+\bibitem[PT06]{Perez2006}
+Sergio P\'{e}rez and Arturo Terceros.
+\newblock {Validaci\'{o}n de Modelos Uando IF Toolbox}.
+\newblock Technical report, Universidad Aut\'{o}noma Metropolitana Unidad
+  Iztapalpa, Mexico, 2006.
+
+\bibitem[Sch04]{Schneider2004}
+Klaus Schneider.
+\newblock {\em {Verification of Reactive Systems: Formal Methods and
+  Algorithms}}.
+\newblock Springer, 2004.
+
+\bibitem[Ser12]{AlexeiSernaA}
+Alexei Serna.
+\newblock {Formal Methods in Industry}.
+\newblock {\em Revista Antioque\~{n}a de las Ciencias Computacionales y la
+  Ingenier\'{\i}a de Software RACCIS}, 2(2):44--51, 2012.
+
+\bibitem[VVBK05]{Vaovic2005}
+Bo{"s}tjan Vlaovi{"c}, Aleksander Vre{"z}e, Zmago Brezo{"c}nik, and Tatjana
+  Kapus.
+\newblock {Verification of an SDL Specification --- a Case Study}.
+\newblock {\em Electrotechnical Review}, 72:14--21, 2005.
+
+\bibitem[WDT{\etalchar{+}}11]{Willcock2011}
+Colin Willcock, Thomas Dei\ss, Stephan Tobies, Stefan Keil, Federico Engler,
+  and Stephan Schulz.
+\newblock {\em {An Introduction to TTCN-3}}.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem[WLBF09]{Woodcock2009}
+Jim Woodcock, Peter~Gorm Larsen, Juan Bicarregui, and John Fitzgerald.
+\newblock {Formal methods: Practice and experience}.
+\newblock {\em ACM Computing Surveys}, 41(4):1--36, October 2009.
+
+\end{thebibliography}
