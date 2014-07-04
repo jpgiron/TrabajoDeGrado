@@ -59,8 +59,8 @@ agentes.
 \item Environment (Ambiente): El ambiente es el entorno en el que se 
 desempe\~na el sistema. 
 
-\item El t\'ermino PID es usado cuando los elementos de datos son referenciados 
-a un agente. Existen cuatro variables de PIDs bien definidos en SDL  las cuales 
+\item El tipo PID es usado cuando los elementos de datos son referenciados 
+a un agente. Existen cuatro variables de tipo PID bien definidas en SDL  las cuales 
 son:
 
 \begin{itemize}
@@ -117,7 +117,7 @@ Representation form of SDL)
 \end{itemize}
 \end{itemize}
 
-La recomendaci\'on de la IUT-T Z.100 enfatiza en la representaci\'on gr\'afica 
+La recomendaci\'on de la ITU-T Z.100 enfatiza en la representaci\'on gr\'afica 
 de SDL. Adem\'as el software a usar en la fase de modelado del caso de estudio 
 brinda la posibilidad de usar SDL/GR. 
 
@@ -143,7 +143,7 @@ concisa, con el fin de elaborar el dise\~no del mismo. Message Sequence Charts
 (MSC)\footnote{Informaci\'on consultada el 20 de Mayo del 2014 en el siguiente 
 sitio: \url{http://www.sdl-forum.org/MSC/index.htm.}} es un lenguaje textual y 
 gr\'afico que permite expresar requerimientos de especificaciones, simulaci\'on 
-y validaci\'on. Actualmente existe una relaci\'on directa entre la 
+y validaci\'on, adem\'as de describir el comportamiento de comunicaci\'on entre las entidades del sistema y el ambiente \cite{Ebner} Actualmente existe una relaci\'on directa entre la 
 especificaci\'on realizada en un diagrama MSC y SDL, que facilita la parte de 
 dise\~no del modelo. 
 
@@ -375,7 +375,7 @@ Como se muestra en el flujo de dise\~no usando verificaci\'on en la figura
 es necesario que el sistema sea especificado de manera rigurosa (System 
 specification). Una vez definido el sistema a trav\'es de lenguajes que no 
 permitan ambig\"uedades en la descripci\'on,  se definen las propiedades que se 
-desea verificar. Paralelo a la definici\'on de las propiedades se puede definir 
+desea verificar. Paralelo a la definici\'on de las propiedades se puede efectuar 
 el proceso de dise\~no (Design Process) hasta obtener un producto o prototipo 
 (product or prototype) del sistema deseado. Finalmente, se verifica a trav\'es 
 de m\'etodos formales que el prototipo satisface las propiedades definidas 
@@ -391,6 +391,7 @@ verificaci\'on. Fuente:~\cite[p.~3]{Baier2008}}
   \label{fig:sisVerificacion}
 \end{figure}
 
+El flujo de dise\~no usando verificaci\'on mostrado anteriormente no est\'a dise\~nado estrictamente para sistemas Hardware, sino que tambi\'en puede ser usado en desarrollo de Hardware/Software.
 
 %Model Checking
 
@@ -454,12 +455,12 @@ dise\~nadores de sistemas tales como:
 UML.
 \item Permite trasladar modelos de alto nivel a una interpretaci\'on 
 intermedia conocida como IF.
-\item IF sirve como modelo sem\'antico, su representaci\'on es rica y 
+\item El modelo sem\'antico de IF posee una representaci\'on rica y 
 suficientemente expresiva para permitir describir los conceptos b\'asicos y 
 estructura del lenguaje fuente.
  \item IF es una representaci\'on intermedia basada en un Aut\'omata 
 temporizado extendido, con variables de datos discretas, comunicaci\'on 
-primitiva y procesos din\'amicos de creaci\'on y destrucci\'on.
+primitiva y creaci\'on y destrucci\'on de procesos din\'amicos.
 \item IF permite la simplificaci\'on de modelos, lo que permite optimizarlo 
 para poder ser verificado por medio de la t\'ecnica Model Checking.
 \item La propiedad que se desea verificar se puede expresar usando un 
@@ -505,58 +506,37 @@ delayable (retardable) pueden permitir el progreso de tiempo mientras est\'a
 habilitada esta transici\'on, lazy (perezoso) no evita el progreso del tiempo.
  \item Observers (Observadores): Los observadores permiten definir la propiedad 
 deseada a verificar. En IF podemos definir tres tipos de observadores los cuales 
-son (Bozga2004):
-\item Pure (Puro): Expresan los requerimientos para ser verificados en el 
+son~\cite{Bozga2004}:
+\begin{itemize}
+	\item Pure (Puro): Expresan los requerimientos para ser verificados en el 
 sistema.
-\item Cut (Poda): Adicionalmente al observador pure, este permite guiar la 
-simulaci\'on hacia un determinado camino de ejecuci\'on, ayudando a restringir 
-el comportamiento del ambiente.
-\item Intrusive (intrusivo): Este observador es el m\'as completo de todos, 
-dado que permite manipular el sistema enviando se\~nales y cambiando variables.
+	\item Cut (Poda): Adicionalmente al observador pure, este permite guiar la 
+	simulaci\'on hacia un determinado camino de ejecuci\'on, ayudando a restringir 
+	el comportamiento del ambiente.
+	\item Intrusive (Intrusivo): Este observador es el m\'as completo de todos, 
+	dado que permite manipular el sistema enviando se\~nales y cambiando variables.
+\end{itemize}
 \end{itemize}
 
 \subsection{Trabajos Relacionados}
 
-La t\'ecnica del Model Checking ha sido usada desde comienzos de los a\~nos 90 
-para la verificaci\'on de propiedades en Hardware. Algunos de los casos m\'as 
-notables en este proceso han sido los siguientes proyectos~\cite{Clarke1996,
-Woodcock2009}: IEEE Futurebus+, Clarke y sus estudiantes de la Universidad de 
-Carnegie Mellon verificaron  el protocolo de coherencia de la cach\'e de dicho 
-proyecto; en 1994 Bosscher, Polak y Vaandrager escribieron el mejor paper donde 
-probaban manualmente la correctitud de un protocolo de control usado en 
-componentes de est\'ereos de Philips. Dos a\~nos despu\'es surgieron t\'ecnicas 
-totalmente automatizadas lo que marcaba que los m\'etodos formales tuvieran 
-m\'as acogida en las industrias. Actualmente cient\'ificos de la computaci\'on y 
-matem\'aticas buscan mejorar las t\'ecnicas de verificaci\'on formal de sistemas 
-como por ejemplo el Model Checking~\cite{Gaudel1996}. Compa\~n\'ias como Intel 
-mencionan que el uso de los m\'etodos formales para la verificaci\'on de 
-hardware ha sido \'util para garantizar sistemas confiables y de alta calidad, 
-adem\'as de permitir mejorar los procesos de desarrollo en sus primeras 
-etapas~\cite{Fix2008}.
+La t\'ecnica del Model Checking ha sido usada desde comienzos de los años 90 para la verificaci\'on de propiedades en Hardware. Algunos de los casos m\'as notables en este proceso han sido los siguientes proyectos que se puede encontrar en~\cite{Clarke1996, Woodcock2009}.  En~\cite{Clarke1996} mencionan el proyecto IEEE Futurebus+ como caso de estudio para mostrar las ventajas de la t\'ecnica del Model Checking, usando una herramienta de verificaci\'on autom\'atica por primera vez. Este proyecto consist\'ia en verificar la coherencia de la cache descrita en el est\'andar 896.1-1991 de la IEEE Futurebus+. Este proyecto fue realizado por Clarke y sus estudiantes de la Universidad de Carnegie Mellon. En~\cite{Clarke1996} se pueden encontrar diferentes proyectos tanto en Hardware como en Software donde se usan los m\'etodos formales para garantizar que el sistema cumpla con propiedades cr\'iticas, se puede encontrar adem\'as que el proyecto llamado NewCore fue el primero en ser verificado formalmente en su totalidad, \'este se describ\'ia en 7.500 l\'ineas de c\'odigo en SDL, excluyendo comentarios, que fueron verificados, hallando 112 errores que fueron corregidos.
 
-Los grupos de investigaci\'on de Verimag, que es un centro de investigaci\'on 
-l\'ider en sistemas embebidos, han propuesto un lenguaje intermedio para 
-trasladar modelos escritos en SDL y UML para verificar los mismos usando la 
-t\'ecnica de Model Checking. En la literatura encontramos distintos trabajos de 
-grados~\cite{BravoParra2006, Hames2009, Perez2006} que han probado la 
-herramienta de IFx para verificar que algunas propiedades se mantienen en el 
-modelo, por ejemplo, en la Universidad Aut\'onoma Metropolitana en la Unidad de 
-Iztapalapa los estudiantes Adolfo Bravo y Jaime Parra, usaron IFx sobre un 
-sistema de telefon\'ia m\'ovil, como caso de estudio, donde se verificaron 
-algunas propiedades como: La consistencia del tipo de llamada que asigna el 
-sistema con el tipo de llamada que obtenga el usuario~\cite{BravoParra2006}. 
-En~\cite{Vaovic2005} hacen uso de los m\'etodos formales para 
-verificar propiedades en un caso de estudio referente a redes de comunicaci\'on. 
-El modelado del sistema se hizo por medio de SDL. Para hacer uso de las 
-herramientas de Model Checking es necesario contar con un lenguaje que \'estas 
-puedan reconocer, para ello trasladaron el sistema al lenguaje de IF por medio 
-de SDL2IF. 
+Compañ\'ias como Intel mencionan que el uso de los m\'etodos formales para la verificaci\'on de hardware ha sido \'util para garantizar sistemas confiables y de alta calidad, adem\'as de permitir mejorar los procesos de desarrollo en sus primeras etapas del sistema~\cite{Fix2008}. 
+Recientemente en~\cite{Woodcock2009} se puede encontrar un estado del arte actualizado de las experiencias que han obtenido las industrias en el uso de los m\'etodos formales. La recolecci\'on de informaci\'on se hizo por medio de un cuestionario enviado a las personas que han estado involucrados en el uso de los m\'etodos formales en la construcci\'on de sistemas. La recopilaci\'on de informaci\'on se dio entre Noviembre del 2007 a Diciembre del 2008; a trav\'es de esta encuesta se puede apreciar que la aplicabilidad de los m\'etodos formales no solo es en el campo de la ingenier\'ia, sino tambi\'en, en las finanzas, Salud, Defensa, entre otros.  
 
-Con respecto a las pruebas funcionales de caja negra usando el lenguaje TTCN-3 
-encontramos estudios referente al dise\~no de casos de pruebas a partir de 
-modelos expresados por medio de SDL y MSC~\cite{Ebner, JensGrabowski1999}, con 
-el fin de obtener componentes de pruebas de forma directa, m\'as r\'apido y 
-sobretodo m\'as entendible para el desarrollador. 
+Los grupos de investigaci\'on de VERIMAG, que es un centro de investigaci\'on l\'ider en sistemas embebidos, han propuesto un lenguaje intermedio para traducir modelos escritos en SDL y UML para verificar los mismos usando la t\'ecnica de Model Checking. En la literatura encontramos distintos trabajos de grado~\cite{BravoParra2006, Perez2006} que han probado la herramienta de IFx para verificar que algunas propiedades se mantienen en el modelo. En~\cite{BravoParra2006} usaron IFx sobre un sistema de telefon\'ia m\'ovil, como caso de estudio, donde se verificaron algunas propiedades como: La consistencia del tipo de llamada que asigna el sistema con el tipo de llamada que obtenga el usuario. En~\cite{Perez2006} hacen uso de la herramienta IFx para verificar un controlador de sem\'aforos que est\'a descrito en UML, la propiedad que desean probar es: “Se busca s\'i en un momento dado dos sem\'aforos est\'an en verde \'o uno en verde y otro en \'ambar”, lo anterior representa un  estado no deseado del sistema , lo que se concluye es que a trav\'es de la herramienta IFx se pudo determinar la falla del modelo.
+
+En~\cite{Vaovic2005} hacen uso de los m\'etodos formales para verificar propiedades en un caso de estudio referente a redes de comunicaci\'on. El modelado del sistema se hizo por medio de SDL y la verificaci\'on formal fue a trav\'es de la t\'ecnica de Model Checking; se tradujo el modelo de SDL a IF por medio de la herramienta SDL2IF, con el fin de obtener un sistema en un lenguaje al que se le puede aplicar alg\'un model checker. 
+
+En~\cite{Jia2001} plantean y desarrollan un experimento para la verificaci\'on de la capa de control din\'amica del protocolo MASCARA (Mobile Access Scheme based on Contention And Reservation for ATM). Hacen uso de diferentes t\'ecnicas de reducci\'on del sistema, con el objetivo de optimizar el modelo y por ende el tiempo de respuesta usando la t\'ecnica  de Model Checking; para m\'as informaci\'on de las t\'ecnicas usadas ver~\cite{Jia2001}. La forma de diseñar las propiedades a verificar fue de manera incremental, donde se empezaba con propiedades sencillas y se termin\'o verificando la capa de control din\'amica del protocolo MASCARA. Para ver los resultados puede referirse a~\cite{Jia2001}.
+
+En~\cite{MariusMinea} se escogi\'o un bloque del  Software de enrutamiento telef\'onico desarrollado en Alcatel Network Systems Romania, para verificar algunas propiedades. Dicho bloque es el encargado de realizar el tipo de di\'alogo apropiado dependiendo de los par\'ametros de los mensajes de inicio y subsecuentes. El bloque cuenta con dos interfaces una upstream para el que llama y una downstream para el servidor. En este caso de estudio hacen uso de IF como lenguaje intermedio para aplicar la t\'ecnica de Model Checking y verificar b\'asicamente cuatro propiedades las cuales son: DeadLocks, Progeso, Abortar y Cierre. 
+
+Con respecto a las pruebas funcionales de caja negra usando el lenguaje TTCN-3 encontramos estudios referente al diseño de casos de pruebas a partir de modelos expresados por medio de SDL y MSC. En~\cite{Ebner} proponen una traducci\'on de elementos de MSC a lenguaje de pruebas TTCN-3, en este paper definen una nueva sem\'antica de MSC para permitir distintas especificaciones de casos de prueba en TTCN-3 que pueden ser concurrentes o no. En~\cite{Willcock2011} hay una breve descripci\'on de c\'omo el lenguaje TTCN-3 ha sido usado para diseñar pruebas al \'ultimo est\'andar de sistemas de comunicaciones m\'oviles conocido como LTE. Se destacan los campos de acci\'on los cuales el lenguaje TTCN-3 est\'a siendo usado, entre estos encontramos~\cite{Schieferdecker}: sector automovil\'istico,  equipos m\'edicos, distribuci\'on y transmisi\'on de potencia, Finanzas, Aviaci\'on, Ferrocarriles.
+
+Este trabajo de grado pretende hacer uso de una metodolog\'ia que combina dos t\'ecnicas, que son los m\'etodos formales y las pruebas, para la minimizaci\'on de errores en el diseño de sistemas descritos en SDL y pretende verificar algunas propiedades de algunos de sus m\'odulos haciendo uso de la t\'ecnica de Model Checking. Adicionalmente, se desea hacer pruebas funcionales de caja negra por medio del uso del lenguaje TTCN-3 en las primeras etapas del desarrollo del sistema.
+ 
 
 %ME TO DOLOGIA
 
@@ -564,7 +544,7 @@ sobretodo m\'as entendible para el desarrollador.
 
 El tipo de estudio que se enmarca en este proyecto es de tipo explicativo y 
 descriptivo. La primera es porque el proyecto de grado trata de aplicar dos 
-metodolog\'ias, m\'etodos formales y pruebas funcionales, de manera conjunta 
+t\'ecnicas en una metodolog\'ia, m\'etodos formales y pruebas funcionales, de manera conjunta 
 para minimizar los errores en los sistemas. El aspecto descriptivo est\'a 
 involucrado en mostrar la aplicaci\'on de ambas t\'ecnicas sobre un caso de 
 estudio y haciendo uso de dos herramientas que son: RTDS para el modelado y 
@@ -672,3 +652,11 @@ su realizaci\'on es de 28  semanas:
 	\item Anexos
 \end{enumerate}
 
+\section{Cronograma}
+
+\begin{figure}[!h]
+  \centering
+  \includegraphics[scale=0.6]{./images/Cronograma.jpg}
+  \caption{Cronograma del proyecto}
+  \label{fig:cronograma}
+\end{figure}

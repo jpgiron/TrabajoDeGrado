@@ -9,7 +9,7 @@ Paul Ammann and Jeff Offutt.
 \bibitem[Ari12]{Arias2012}
 Jaime Arias.
 \newblock {Model Checking for tcc Calculus}.
-\newblock 2012.
+\newblock Technical report, Pontificia Universidad Javeriana, Cali, 2012.
 
 \bibitem[BBC{\etalchar{+}}02]{Bowen2002}
 J.P. Bowen, K.~Bogdanov, J.A. Clark, M.~Harman, R.M. Hierons, and P.~Krause.
@@ -66,9 +66,9 @@ Jens Grabowski, Dieter Hogrefe, Gy\"{o}rgy R\'{e}thy, Ina Schieferdecker,
 
 \bibitem[Ham09]{Hames2009}
 Edgardo Hames.
-\newblock {\em {Falluto : Un model checker para la verificaci\'{o}n de sistemas
-  tolerantes a fallas}}.
-\newblock PhD thesis, Universidad Nacional de C\'{o}rdoba, 2009.
+\newblock {Falluto : Un model checker para la verificaci\'{o}n de sistemas
+  tolerantes a fallas}.
+\newblock Technical report, Universidad Nacional de C\'{o}rdoba, 2009.
 
 \bibitem[HKL{\etalchar{+}}09]{Hierons2009}
 Robert~M. Hierons, Paul Krause, Gerald L\"{u}ttgen, Anthony J.~H. Simons,
@@ -103,16 +103,19 @@ ITU-T.
 \newblock {\em {ITU-T Rec. Z.100 -- Formal description techniques (FDT) --
   Specification and Description Language (SDL)}}, 2002.
 
-\bibitem[{Jen}99]{JensGrabowski1999}
-Beat~Koch {Jens Grabowski}.
-\newblock {SDL and MSC Based Test Generation for Distributed Test
-  Architectures}.
-\newblock 1999.
+\bibitem[JG01]{Jia2001}
+Guoping Jia and Susanne Graf.
+\newblock {Verification experiments on the MASCARA protocol}.
+\newblock pages 123--142, May 2001.
 
 \bibitem[Kro99]{Kropf1999}
 Thomas Kropf.
 \newblock {\em {Introduction to Formal Hardware Verification}}.
 \newblock Springer, 1999.
+
+\bibitem[{Mar}]{MariusMinea}
+Călin~Jebelean {Marius Minea}.
+\newblock {Experience with Formal Verification of SDL Protocols}.
 
 \bibitem[MMT09]{Mikovski2009}
 Iv\'{a}n~Georgiev Mikovski, Jos\'{e} Antonio~Gonz\'{a}lez Mart\'{\i}nez, and
@@ -132,6 +135,13 @@ Klaus Schneider.
   Algorithms}}.
 \newblock Springer, 2004.
 
+\bibitem[Sch10]{Schieferdecker}
+Ina Schieferdecker.
+\newblock {Test Automation with TTCN-3: State of the Art and a Future
+  Perspective}.
+\newblock In {\em ICTSS 2010, Test Automation with TTCN-3}, Natal, Brazil,
+  2010.
+
 \bibitem[Ser12]{AlexeiSernaA}
 Alexei Serna.
 \newblock {Formal Methods in Industry}.
@@ -148,7 +158,7 @@ Bo{"s}tjan Vlaovi{"c}, Aleksander Vre{"z}e, Zmago Brezo{"c}nik, and Tatjana
 Colin Willcock, Thomas Dei\ss, Stephan Tobies, Stefan Keil, Federico Engler,
   and Stephan Schulz.
 \newblock {\em {An Introduction to TTCN-3}}.
-\newblock John Wiley \& Sons, 2011.
+\newblock John Wiley \& Sons, second edi edition, 2011.
 
 \bibitem[WLBF09]{Woodcock2009}
 Jim Woodcock, Peter~Gorm Larsen, Juan Bicarregui, and John Fitzgerald.

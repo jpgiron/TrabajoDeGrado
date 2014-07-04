@@ -18,36 +18,37 @@ sistemas y el uso de m\'etodos formales; sin embargo, a pesar de su existencia,
 es cada vez m\'as complejo garantizar sistemas sin errores haciendo uso de una 
 sola t\'ecnica~\cite{Gaudel1996}. Por ejemplo, los m\'etodos formales se 
 fundamentan en estructuras de l\'ogica matem\'atica bien definidas que no son 
-tan sencillas de usar en diferentes etapas del desarrollo del sistema, debido 
+tan sencillas de usar en diferentes etapas del desarrollo del sistema, debido a 
 que exigen una alta demanda de tiempo y contar con personal altamente entrenado 
 ~\cite{AlexeiSernaA}; por otra parte, tampoco ser\'ia conveniente usar s\'olo 
 pruebas funcionales a sistemas de seguridad cr\'itica pretendiendo garantizar 
 el correcto funcionamiento al cien por ciento.
 
 Por lo anterior, dado el incremento acelerado tanto en la complejidad como en la 
-aplicaci\'on de los sistemas embebidos, es indispensable garantizar la 
-confiabilidad de su funcionamiento haciendo uso combinado de dos metodolog\'ias 
+aplicaci\'on de los sistemas embebidos, es necesario proveer sistemas con niveles de 
+confiabilidad suficiente para su correcto funcionamiento, haciendo uso combinado de dos metodolog\'ias 
 para la detecci\'on de errores en modelos a implementar, en este caso se trata 
 de los ya mencionados M\'etodos formales y Pruebas funcionales.
 
 \subsection{Formulaci\'on}
 
-¿Es posible minimizar el n\'umero de errores en un sistema, usando en conjunto 
+Â¿Es posible minimizar el n\'umero de errores en un sistema, usando en conjunto 
 t\'ecnicas de m\'etodos formales y pruebas sobre diferentes etapas de desarrollo 
 del sistema?
 
 \subsection{Sistematizaci\'on}
 
 \begin{enumerate}
- \item ¿Por qu\'e es necesario representar los sistemas a trav\'es de lenguajes 
-formales?
-\item ¿Cu\'al lenguaje formal permite expresar un sistema a trav\'es de 
+
+\item Â¿Cu\'al lenguaje semi-formal permite expresar un sistema a trav\'es de 
 m\'aquinas de estados finitas?
-\item ¿Qu\'e tipo de t\'ecnicas son apropiadas para verificar si un sistema 
-satisface unas condiciones dadas?
-\item ¿C\'omo diferenciar en qu\'e etapas del desarrollo de un sistema es 
+ \item Â¿Por qu\'e es necesario representar los sistemas a trav\'es de lenguajes 
+formales?
+\item Â¿C\'omo diferenciar en qu\'e etapas del desarrollo de un sistema es 
 conveniente aplicar m\'etodos formales o pruebas?
-\item ¿C\'omo usar estructuras de l\'ogica matem\'atica para verificar 
+\item Â¿Qu\'e tipo de t\'ecnicas son apropiadas para verificar si un sistema 
+satisface unas condiciones dadas?
+\item Â¿C\'omo usar estructuras de l\'ogica matem\'atica para verificar 
 modelos?
 \end{enumerate}
 
@@ -55,12 +56,14 @@ modelos?
 Para definir el t\'itulo del trabajo de grado se han especificado las fases y 
 las herramientas a usar en la verificaci\'on del correcto funcionamiento de un 
 sistema distribuido, el cual empieza desde su descripci\'on en un lenguaje que 
-no tenga ambigüedades y que se pueda manipular f\'acilmente para optimizar, 
+no tenga ambig\"uedades y que se pueda manipular f\'acilmente para optimizar, 
 probar y verificar a trav\'es de m\'etodos formales. Por lo anterior se 
 defini\'o el siguiente t\'itulo:
 
-\textbf{\textit{“MODELADO, PRUEBA Y VERIFICACI\'oN DE SISTEMAS DISTRIBUIDOS 
-USANDO RTDS e IFx”}}
+\vspace{50 mm}
+
+\textbf{\textit{``MODELADO, PRUEBA Y VERIFICACI\'oN DE SISTEMAS DISTRIBUIDOS 
+USANDO RTDS e IFx''}}
 
 
 \section{Objetivos}
@@ -78,7 +81,7 @@ herramientas RTDS e IFx.
  \item Comprender el correcto funcionamiento de la herramienta Real Time 
 Developer Studio.
 \item Implementar el caso de estudio usando un lenguaje que no introduzca 
-errores por ambigüedades en la descripci\'on, el cual posteriormente ser\'a 
+errores por ambig\"uedades en la descripci\'on, el cual posteriormente ser\'a 
 verificado por medio de m\'etodos formales y pruebas.
 \item Determinar en qu\'e etapas del desarrollo de sistemas es pertinente usar 
 m\'etodos formales o pruebas.
@@ -114,8 +117,8 @@ de
 FORTEST era explorar caminos que 
 permitieran mostrar que los m\'etodos formales y el software de pruebas son 
 complementarios, y as\'i facilitar los enfoques y t\'ecnicas 	que permitan 
-producir software de alta 
-calidad\footnote{
+producir sistemas de alta 
+calidad\footnote{Para mas detalles:
 \url{http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=GR/R43150/01 
 }}.
 
@@ -128,7 +131,7 @@ bas\'andose en las investigaciones de la red FORTEST.
 
 \begin{itemize}
  \item El proceso de modelado del caso de estudio se har\'a por medio 
-de un lenguaje que no posea ambigüedades adem\'as de soportarlo la herramienta 
+de un lenguaje que no posea ambig\"uedades adem\'as de soportarlo la herramienta 
 Real Time Developer Studio, en este caso ser\'a SDL.
 \item El modelo del caso de estudio se limitar\'a a especificar de manera 
 general los procesos involucrados; algunos de ellos se asumir\'an como 
@@ -137,7 +140,7 @@ se modelar\'a su comportamiento dado que no es de inter\'es del presente trabajo
 de grado desarrollarlo. Ej.: modelar la base de datos de usuarios del 
 parqueadero. 
 \item Las pruebas realizadas al modelo se har\'an en las primeras fases del 
-desarrollo del mismo y de forma serial usando SDL, MSC y TTCN3.
+desarrollo del mismo sin usar componentes paralelos de pruebas (PTCs) usando SDL, MSC y TTCN3.
 \item Las verificaciones formales no se har\'an en el nivel de sistema, sino 
 sobre m\'odulos espec\'ificos.
 \item Se har\'a uso de la herramienta SDL2IF para la transformaci\'on del 
