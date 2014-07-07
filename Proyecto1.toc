@@ -20,10 +20,10 @@
 \contentsline {subsubsection}{\numberline {2.1.2.2}TTCN-3 (Testing and Test Control Notation Version 3)}{18}{subsubsection.2.1.2.2}
 \contentsline {subsubsection}{\numberline {2.1.2.3}Conceptos b\'asicos de TTCN-3}{19}{subsubsection.2.1.2.3}
 \contentsline {subsubsection}{\numberline {2.1.2.4}Modelo arquitect\'onico del Sistema de Prueba en TTCN-3}{20}{subsubsection.2.1.2.4}
-\contentsline {subsection}{\numberline {2.1.3}Verificaciones Formales}{20}{subsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.3.1}M\'etodos Formales}{20}{subsubsection.2.1.3.1}
+\contentsline {subsection}{\numberline {2.1.3}Verificaciones Formales}{21}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}M\'etodos Formales}{21}{subsubsection.2.1.3.1}
 \contentsline {subsubsection}{\numberline {2.1.3.2}Verificaci\'on Formal Hardware}{21}{subsubsection.2.1.3.2}
-\contentsline {subsubsection}{\numberline {2.1.3.3}Model Checking}{21}{subsubsection.2.1.3.3}
+\contentsline {subsubsection}{\numberline {2.1.3.3}Model Checking}{22}{subsubsection.2.1.3.3}
 \contentsline {subsubsection}{\numberline {2.1.3.4}Herramienta IFx}{22}{subsubsection.2.1.3.4}
 \contentsline {subsubsection}{\numberline {2.1.3.5}Conceptos b\'asicos de IFx}{23}{subsubsection.2.1.3.5}
 \contentsline {subsection}{\numberline {2.1.4}Trabajos Relacionados}{24}{subsection.2.1.4}
@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {2.4}Descripci\'on de recursos}{25}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Director}{25}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Recursos T\'ecnicos}{25}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Presupuesto}{25}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Presupuesto}{26}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Tabla de Contenido}{26}{section.2.5}
 \contentsline {section}{\numberline {2.6}Cronograma}{27}{section.2.6}
 \contentsline {chapter}{Bibliograf\'{\i }a}{29}{chapter*.3}

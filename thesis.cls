@@ -136,7 +136,7 @@
   }
   {
     \begin{tabular}{p{8cm}p{8cm}}
-      \line(1,0){200}&\line(1,0){200} \\
+      \line(1,0){300}&\line(1,0){200} \\
       \directorA & \directorB\\
     \end{tabular}
   }
@@ -499,7 +499,7 @@
 \def\@part[#1]#2{%
     \ifnum \c@secnumdepth >-2\relax
       \refstepcounter{part}%
-      \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+      \addcontentsline{toc}{part}{\thepart\hspace{2em}#1}%
     \else
       \addcontentsline{toc}{part}{#1}%
     \fi
@@ -567,7 +567,6 @@
 %          \huge\bfseries 
           {\Large \scshape \@chapapp\space \thechapter}
           \par\nobreak
-%        \vskip 0\p@
         \fi
       \fi
       \interlinepenalty\@M
@@ -641,7 +640,7 @@
 \newcommand\labelenumi{\theenumi.}
 \newcommand\labelenumii{(\theenumii)}
 \newcommand\labelenumiii{\theenumiii.}
-\newcommand\labelenumiv{\theenumiv.}
+\newcommand\labelenumiv{\theenu0miv.}
 \renewcommand\p@enumii{\theenumi}
 \renewcommand\p@enumiii{\theenumi(\theenumii)}
 \renewcommand\p@enumiv{\p@enumiii\theenumiii}

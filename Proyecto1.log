@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  4 JUL 2014 12:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  7 JUL 2014 17:58
 entering extended mode
 **Proyecto1.tex
 
@@ -635,9 +635,9 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 50.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 50.
-Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 51.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 51.
 
 
 Package hyperref Warning: Values of option `pdfpagemode':
@@ -648,9 +648,9 @@ Package hyperref Warning: Values of option `pdfpagemode':
 (hyperref)                * `UseOC' (PDF 1.5)
 (hyperref)                * `UseAttachments' (PDF 1.6)
 (hyperref)                * An empty value disables the option.
-(hyperref)                Unknown value `None' on input line 50.
+(hyperref)                Unknown value `None' on input line 51.
 
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 50.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 51.
 
 (C:\Users\Administrador\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.
 sty
@@ -786,12 +786,12 @@ LaTeX Info: Redefining \nameref on input line 46.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=452.9679pt
-* \textheight=661.61192pt
+* \textheight=651.21193pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=0.0pt
-* \headheight=13.6pt
-* \headsep=0.0pt
+* \headheight=12.0pt
+* \headsep=12.0pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
 * \marginparwidth=115.0pt
@@ -949,32 +949,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-
-! LaTeX Error: Environment abstract undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 \begin{abstract}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{abstract}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \end{abstract}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 [5] [6
 
 ]
@@ -990,12 +964,19 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 57.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [9]) [10]
+) [9])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.36252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
 Cap\'{\i }tulo 1.
 
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\descripcion.tex"
-Overfull \hbox (2.50867pt too wide) in paragraph at lines 66--67
+Overfull \hbox (2.50867pt too wide) in paragraph at lines 65--66
 []\T1/cmr/bx/it/10 ``MODELADO, PRUE-BA Y VE-RI-FI-CA-CIÛN DE SIS-TE-MAS DIS-TRI
 -BUI-DOS USAN-
  []
@@ -1056,7 +1037,7 @@ File: ./images/trasl_SDL.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./images/trasl_SDL.jpg used on input line 161.
 (pdftex.def)             Requested size: 165.994pt x 128.57947pt.
 
-Underfull \vbox (badness 1953) has occurred while \output is active []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
  [17 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio 
 del 2014/images/EjemploSDLGR_SDLPR.jpg> <C:/Users/Administrador/Dropbox/Trabajo
@@ -1071,7 +1052,7 @@ Package pdftex.def Info: ./images/ModeloTTCN3.jpg used on input line 323.
 (pdftex.def)             Requested size: 216.80946pt x 152.82056pt.
  [20 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio 
 del 2014/images/ModeloTTCN3.jpg>]
-<./images/vistaSistemaVerificacion.jpg, id=377, 478.03593pt x 313.17pt>
+<./images/vistaSistemaVerificacion.jpg, id=376, 478.03593pt x 313.17pt>
 File: ./images/vistaSistemaVerificacion.jpg Graphic file (type jpg)
 
 <use ./images/vistaSistemaVerificacion.jpg>
@@ -1080,7 +1061,7 @@ ne 388.
 (pdftex.def)             Requested size: 286.82376pt x 187.90344pt.
  [21 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio 
 del 2014/images/vistaSistemaVerificacion.jpg>] <./images/ArquitecturaIF.jpg, id
-=398, 385.44pt x 372.64218pt>
+=397, 385.44pt x 372.64218pt>
 File: ./images/ArquitecturaIF.jpg Graphic file (type jpg)
 
 <use ./images/ArquitecturaIF.jpg>
@@ -1088,13 +1069,13 @@ Package pdftex.def Info: ./images/ArquitecturaIF.jpg used on input line 476.
 (pdftex.def)             Requested size: 231.26578pt x 223.58702pt.
  [22] [23 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 J
 unio del 2014/images/ArquitecturaIF.jpg>]
-[24] [25] <./images/Cronograma.jpg, id=452, 606.01407pt x 287.57437pt>
+[24] [25] [26] <./images/Cronograma.jpg, id=482, 606.01407pt x 287.57437pt>
 File: ./images/Cronograma.jpg Graphic file (type jpg)
 
 <use ./images/Cronograma.jpg>
 Package pdftex.def Info: ./images/Cronograma.jpg used on input line 659.
 (pdftex.def)             Requested size: 363.61125pt x 172.54594pt.
- [26])
+)
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\Proyecto1.bbl" [27 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Docume
 nto/LATEX/25 Junio del 2014/images/Cronograma.jpg>] [28
@@ -1124,15 +1105,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `Proyecto1.out' has not changed.
 (rerunfilecheck)             Checksum: CF5E9CE1E7222F83D6198680AAC2A2B5;1768.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9913 strings out of 494045
- 139778 string characters out of 3145945
- 255076 words of memory out of 3000000
- 12634 multiletter control sequences out of 15000+200000
+ 9914 strings out of 494045
+ 139810 string characters out of 3145945
+ 255107 words of memory out of 3000000
+ 12635 multiletter control sequences out of 15000+200000
  21907 words of font info for 57 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,12n,45p,1241b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,45p,1241b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Administrador\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ectt1000.pk> <C:\Users\Administrador\AppData\Local\MiKTeX\2.9\fonts\pk\
 ljfour\jknappen\ec\dpi600\ecbi1000.pk> <C:\Users\Administrador\AppData\Local\Mi
@@ -1154,9 +1139,9 @@ i600\ecrm1728.pk> <C:\Users\Administrador\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto1.pdf (30 pages, 669068 bytes).
+Output written on Proyecto1.pdf (30 pages, 669608 bytes).
 PDF statistics:
- 1154 PDF objects out of 1200 (max. 8388607)
+ 1155 PDF objects out of 1200 (max. 8388607)
  165 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
