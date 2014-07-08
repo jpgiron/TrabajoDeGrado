@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  7 JUL 2014 17:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  8 JUL 2014 01:46
 entering extended mode
 **Proyecto1.tex
 
@@ -723,20 +723,20 @@ Writing index file Proyecto1.idx
 
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\Proyecto1.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 (C:\Users\Administrador\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mk
 ii
@@ -754,7 +754,7 @@ ii
 \everyMPtoPDFconversion=\toks33
 )
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 48.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -763,9 +763,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\Proyecto1.out")
@@ -840,11 +840,11 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -852,7 +852,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 <./images/pujlogo.pdf, id=103, 321.2pt x 108.405pt>
 File: ./images/pujlogo.pdf Graphic file (type pdf)
  <use ./images/pujlogo.pdf>
-Package pdftex.def Info: ./images/pujlogo.pdf used on input line 49.
+Package pdftex.def Info: ./images/pujlogo.pdf used on input line 51.
 (pdftex.def)             Requested size: 227.62204pt x 76.82417pt.
 
 [1
@@ -863,89 +863,89 @@ Package pdftex.def Info: ./images/pujlogo.pdf used on input line 49.
 {C:/Users/Administrador/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/
 Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio del 2014/
 images/pujlogo.pdf>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 [3] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
@@ -1069,18 +1069,19 @@ Package pdftex.def Info: ./images/ArquitecturaIF.jpg used on input line 476.
 (pdftex.def)             Requested size: 231.26578pt x 223.58702pt.
  [22] [23 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 J
 unio del 2014/images/ArquitecturaIF.jpg>]
-[24] [25] [26] <./images/Cronograma.jpg, id=482, 606.01407pt x 287.57437pt>
-File: ./images/Cronograma.jpg Graphic file (type jpg)
+[24] [25] [26] [27]
+<./images/CronogramaJPGR.jpg, id=490, 292.84406pt x 968.11688pt>
+File: ./images/CronogramaJPGR.jpg Graphic file (type jpg)
 
-<use ./images/Cronograma.jpg>
-Package pdftex.def Info: ./images/Cronograma.jpg used on input line 659.
-(pdftex.def)             Requested size: 363.61125pt x 172.54594pt.
+<use ./images/CronogramaJPGR.jpg>
+Package pdftex.def Info: ./images/CronogramaJPGR.jpg used on input line 661.
+(pdftex.def)             Requested size: 175.70778pt x 580.87462pt.
 )
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
-2014\Proyecto1.bbl" [27 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Docume
-nto/LATEX/25 Junio del 2014/images/Cronograma.jpg>] [28
+2014\Proyecto1.bbl" [28 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Docume
+nto/LATEX/25 Junio del 2014/images/CronogramaJPGR.jpg>] [29
 
-] [29])
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Proyecto1.maf file.
@@ -1095,14 +1096,14 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Proyecto1.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
 [30]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\Proyecto1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `Proyecto1.out' has not changed.
 (rerunfilecheck)             Checksum: CF5E9CE1E7222F83D6198680AAC2A2B5;1768.
 
@@ -1112,7 +1113,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  9914 strings out of 494045
- 139810 string characters out of 3145945
+ 139830 string characters out of 3145945
  255107 words of memory out of 3000000
  12635 multiletter control sequences out of 15000+200000
  21907 words of font info for 57 fonts, out of 3000000 for 9000
@@ -1139,7 +1140,7 @@ i600\ecrm1728.pk> <C:\Users\Administrador\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto1.pdf (30 pages, 669608 bytes).
+Output written on Proyecto1.pdf (30 pages, 722530 bytes).
 PDF statistics:
  1155 PDF objects out of 1200 (max. 8388607)
  165 named destinations out of 1000 (max. 500000)

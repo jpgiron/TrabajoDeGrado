@@ -34,5 +34,5 @@
 \contentsline {subsection}{\numberline {2.4.2}Recursos T\'ecnicos}{25}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Presupuesto}{26}{subsection.2.4.3}
 \contentsline {section}{\numberline {2.5}Tabla de Contenido}{26}{section.2.5}
-\contentsline {section}{\numberline {2.6}Cronograma}{27}{section.2.6}
+\contentsline {section}{\numberline {2.6}Cronograma}{28}{section.2.6}
 \contentsline {chapter}{Bibliograf\'{\i }a}{29}{chapter*.3}

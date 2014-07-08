@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="CronogramaTrabajoDegrado" company="PUJ-CALI" webLink="http://" view-date="2013-11-01" view-index="0" gantt-divider-location="695" resource-divider-location="300" version="2.0" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="CronogramaTrabajoDegrado" company="PUJ-CALI" webLink="http://" view-date="2014-01-01" view-index="0" gantt-divider-location="633" resource-divider-location="300" version="2.0" locale="es">
     <description><![CDATA[Cronograma para realización del trabajo de grado de JPGR.
 ]]></description>
     <view zooming-state="default:10" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="65" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="9" order="1"/>
+        <field id="tpd4" name="Fecha de inicio" width="10" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="24" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="70" order="0"/>
-        <field id="1" name="Función" width="29" order="1"/>
+        <field id="0" name="Nombre" width="56" order="0"/>
+        <field id="1" name="Función" width="43" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -51,7 +50,7 @@
         <task id="5" name="Entrega de Ante proyecto Facultad de Ingeniería" color="#8cb6ce" meeting="false" start="2014-07-07" duration="1" complete="0" expand="true">
             <depend id="6" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="6" name="Aprobación Ante Proyecto" color="#8cb6ce" meeting="false" start="2014-07-08" duration="21" complete="0" expand="true"/>
+        <task id="6" name="Aprobación Ante Proyecto" color="#8cb6ce" meeting="false" start="2014-07-08" duration="11" complete="0" expand="true"/>
         <task id="7" name="Modelado del caso de estudio usando SDL en RTDS" meeting="false" start="2014-03-04" duration="30" complete="0" expand="true">
             <depend id="8" type="2" difference="0" hardness="Strong"/>
         </task>
@@ -70,11 +69,21 @@
         <task id="14" name="Entregar Monografía a la facultad de Ingeniería" color="#8cb6ce" meeting="false" start="2014-07-31" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources>
+        <resource id="1" name="Fuentes Bibliográficas" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Director " function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Acceso a Internet" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Computador Personal" function="Default:0" contacts="" phone=""/>
         <resource id="0" name="Uso de RTDS" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Herramienta IF" function="Default:0" contacts="" phone=""/>
     </resources>
     <allocations/>
     <vacations>
+        <vacation start="2014-01-27" end="2014-08-01" resourceid="1"/>
+        <vacation start="2014-01-27" end="2014-08-01" resourceid="2"/>
+        <vacation start="2014-01-27" end="2014-08-01" resourceid="3"/>
+        <vacation start="2014-01-27" end="2014-08-01" resourceid="4"/>
         <vacation start="2014-01-27" end="2014-08-01" resourceid="0"/>
+        <vacation start="2014-04-21" end="2014-08-01" resourceid="5"/>
     </vacations>
     <taskdisplaycolumns>
         <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
@@ -86,9 +95,9 @@
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="455" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="68" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="168" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="413" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="63" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="154" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
