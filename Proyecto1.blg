@@ -1,35 +1,37 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Proyecto1.aux
 The style file: alpha.bst
 Database file #1: library.bib
-I was expecting a `,' or a `}'---line 436 of file library.bib
+I was expecting a `,' or a `}'---line 19 of file library.bib
+ : school = {Programa de Ingenier\'ia} 
+ :                                     Electr\'o}nica, Pontificia Universidad Javeriana Cali},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 422 of file library.bib
  : @misc{ISO/IEC 
  :               12119,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 445 of file library.bib
+I was expecting a `,' or a `}'---line 431 of file library.bib
  : @misc{ISO 
  :           9241,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 462 of file library.bib
+I was expecting a `,' or a `}'---line 448 of file library.bib
  : @misc{ISO/IEC 
  :               25000,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 467 of file library.bib
+I was expecting a `,' or a `}'---line 453 of file library.bib
  : @misc{ISO/IEC 
  :               25010,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in IEEE1994
 Warning--to sort, need author or key in ISOIEC29119
+Warning--empty title in Arias2012
+Warning--empty institution in Arias2012
+Warning--empty year in Arias2012
 Warning--can't use both author and editor fields in Bozga2004
-Warning--empty journal in Ebner
-Warning--empty year in Ebner
 Warning--can't use both author and editor fields in Fix2008
 Warning--can't use both author and editor fields in Gaudel1996
 Warning--empty author in IEEE1994
 Warning--empty journal in IEEE1994
 Warning--empty author in ISOIEC29119
 Warning--empty journal in ISOIEC29119
-Warning--empty journal in Jia2001
-Warning--empty journal in MariusMinea
-Warning--empty year in MariusMinea
 Warning--empty note in Mikovski2009
-(There were 4 error messages)
+(There were 5 error messages)

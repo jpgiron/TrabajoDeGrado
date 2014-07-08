@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  8 JUL 2014 01:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  8 JUL 2014 03:18
 entering extended mode
 **Proyecto1.tex
 
@@ -976,14 +976,19 @@ Cap\'{\i }tulo 1.
 
 ("C:\Users\Administrador\Dropbox\Trabajo de Grado\Documento\LATEX\25 Junio del 
 2014\descripcion.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+[11
+
+]
 Overfull \hbox (2.50867pt too wide) in paragraph at lines 65--66
 []\T1/cmr/bx/it/10 ``MODELADO, PRUE-BA Y VE-RI-FI-CA-CIóN DE SIS-TE-MAS DIS-TRI
 -BUI-DOS USAN-
  []
 
-[11
-
-] [12]) [13] [14
+[12]) [13] [14
 
 ]
 Cap\'{\i }tulo 2.
@@ -1112,10 +1117,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 9914 strings out of 494045
- 139830 string characters out of 3145945
+ 9915 strings out of 494045
+ 139821 string characters out of 3145945
  255107 words of memory out of 3000000
- 12635 multiletter control sequences out of 15000+200000
+ 12636 multiletter control sequences out of 15000+200000
  21907 words of font info for 57 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,12n,45p,1241b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1140,9 +1145,9 @@ i600\ecrm1728.pk> <C:\Users\Administrador\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
 our\jknappen\ec\dpi600\ecrm1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto1.pdf (30 pages, 722530 bytes).
+Output written on Proyecto1.pdf (30 pages, 725247 bytes).
 PDF statistics:
- 1155 PDF objects out of 1200 (max. 8388607)
+ 1161 PDF objects out of 1200 (max. 8388607)
  165 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
