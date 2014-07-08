@@ -6,9 +6,11 @@ Paul Ammann and Jeff Offutt.
 \newblock {\em {Introduction to Software Testing}}.
 \newblock Cambridge University Press, 1 edition, 2008.
 
-\bibitem[Ari]{Arias2012}
+\bibitem[Ari12]{Arias2012}
 Jaime Arias.
-\newblock Technical report, Cali.
+\newblock {Model Checking for tcc Calculus}.
+\newblock Technical report, Programa de Ingenier\'ia Electr\'onica, Pontificia
+  Universidad Javeriana Cali, Cali, 2012.
 
 \bibitem[BBC{\etalchar{+}}02]{Bowen2002}
 J.P. Bowen, K.~Bogdanov, J.A. Clark, M.~Harman, R.M. Hierons, and P.~Krause.
@@ -76,7 +78,7 @@ Susanne Graf and Guoping Jia.
 Edgardo Hames.
 \newblock {Falluto : Un model checker para la verificaci\'{o}n de sistemas
   tolerantes a fallas}.
-\newblock Technical report, Facultad de ;atem\'{a}tica, Astronom\'{\i}a y
+\newblock Technical report, Facultad de matem\'{a}tica, Astronom\'{\i}a y
   F\'{\i}sica,Universidad Nacional de C\'{o}rdoba, Cordoba, Argentina, 2009.
 
 \bibitem[HKL{\etalchar{+}}09]{Hierons2009}
