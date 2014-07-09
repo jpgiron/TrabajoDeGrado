@@ -2,20 +2,20 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Proyecto1.aux
 The style file: alpha.bst
 Database file #1: library.bib
 Warning--entry type for "ETSI" isn't style-file defined
---line 172 of file library.bib
-I was expecting a `,' or a `}'---line 433 of file library.bib
+--line 181 of file library.bib
+I was expecting a `,' or a `}'---line 442 of file library.bib
  : @misc{ISO/IEC 
  :               12119,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 442 of file library.bib
+I was expecting a `,' or a `}'---line 451 of file library.bib
  : @misc{ISO 
  :           9241,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 459 of file library.bib
+I was expecting a `,' or a `}'---line 468 of file library.bib
  : @misc{ISO/IEC 
  :               25000,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 464 of file library.bib
+I was expecting a `,' or a `}'---line 473 of file library.bib
  : @misc{ISO/IEC 
  :               25010,
 I'm skipping whatever remains of this entry

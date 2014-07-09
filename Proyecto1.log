@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  9 JUL 2014 14:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.6.29)  9 JUL 2014 15:19
 entering extended mode
 **Proyecto1.tex
 
@@ -1378,7 +1378,7 @@ Package pdftex.def Info: ./images/DiagramaMSC.jpg used on input line 154.
 (pdftex.def)             Requested size: 175.47939pt x 79.04475pt.
  [17 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio 
 del 2014/images/EjemploSDLGR_SDLPR.jpg>]
-<./images/trasl_SDL.jpg, id=322, 237.13594pt x 183.68625pt>
+<./images/trasl_SDL.jpg, id=323, 237.13594pt x 183.68625pt>
 File: ./images/trasl_SDL.jpg Graphic file (type jpg)
 
 <use ./images/trasl_SDL.jpg>
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: ./images/trasl_SDL.jpg used on input line 161.
  [18 <C:/Users/Administrador/Dropbox/Trabajo de Grado/Documento/LATEX/25 Junio 
 del 2014/images/DiagramaMSC.jpg> <C:/Users/Administrador/Dropbox/Trabajo de Gra
 do/Documento/LATEX/25 Junio del 2014/images/trasl_SDL.jpg>] [19] <./images/Mode
-loTTCN3.jpg, id=365, 335.00156pt x 239.39438pt>
+loTTCN3.jpg, id=368, 335.00156pt x 239.39438pt>
 File: ./images/ModeloTTCN3.jpg Graphic file (type jpg)
 
 <use ./images/ModeloTTCN3.jpg>
@@ -1397,7 +1397,7 @@ Package pdftex.def Info: ./images/ModeloTTCN3.jpg used on input line 323.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20] <./images/vistaSistemaVerificacion.jpg, id=380, 478.03593pt x 313.17pt>
+[20] <./images/vistaSistemaVerificacion.jpg, id=383, 478.03593pt x 313.17pt>
 File: ./images/vistaSistemaVerificacion.jpg Graphic file (type jpg)
 
 <use ./images/vistaSistemaVerificacion.jpg>
@@ -1415,7 +1415,7 @@ Underfull \vbox (badness 1616) has occurred while \output is active []
 del 2014/images/ModeloTTCN3.jpg>] [22 <C:/Users/Administrador/Dropbox/Trabajo d
 e Grado/Documento/LATEX/25 Junio del 2014/images/vistaSistemaVerificacion.jpg>]
 
-<./images/ArquitecturaIF.jpg, id=410, 385.44pt x 372.64218pt>
+<./images/ArquitecturaIF.jpg, id=413, 385.44pt x 372.64218pt>
 File: ./images/ArquitecturaIF.jpg Graphic file (type jpg)
 
 <use ./images/ArquitecturaIF.jpg>
@@ -1494,15 +1494,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `Proyecto1.out' has not changed.
 (rerunfilecheck)             Checksum: CF5E9CE1E7222F83D6198680AAC2A2B5;1768.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 18879 strings out of 494045
- 325416 string characters out of 3145945
- 454790 words of memory out of 3000000
+ 18880 strings out of 494045
+ 325427 string characters out of 3145945
+ 454861 words of memory out of 3000000
  21377 multiletter control sequences out of 15000+200000
  23448 words of font info for 59 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1530,9 +1526,9 @@ X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Administrador\A
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Proyecto1.pdf (30 pages, 608338 bytes).
+Output written on Proyecto1.pdf (30 pages, 611779 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
+ 1282 PDF objects out of 1440 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

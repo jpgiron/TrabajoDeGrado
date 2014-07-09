@@ -58,7 +58,9 @@ Michael Ebner.
 
 \bibitem[{ETS}]{ETSI}
 {ETSI's TTCN-3.org Editorial Team}.
-\newblock {Introduction TTCN-3}.
+\newblock {Introduction TTCN-3. Disponible en:
+  \url{http://www.ttcn-3.org/index.php/about/introduction}. Accesado el d\'ia
+  08/05/14}.
 
 \bibitem[Fix08]{Fix2008}
 Limor Fix.
@@ -142,6 +144,11 @@ Sergio P\'{e}rez and Arturo Terceros.
 \newblock {Validaci\'{o}n de Modelos Uando IF Toolbox}.
 \newblock Technical report, Programa de Ingenier\'{\i}a Electr\'{o}nica,
   Universidad Aut\'{o}noma Metropolitana Unidad Iztapalpa, Mexico, 2006.
+
+\bibitem[Ren99]{Reiners}
+Adriaan~Michael Reniers.
+\newblock {\em {Message Sequence Charts Syntax and Semantics}}.
+\newblock PhD thesis, UnivesiteitsDrukkerij, Eindhoven, 1999.
 
 \bibitem[Sch04]{Schneider2004}
 Klaus Schneider.
