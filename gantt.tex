@@ -1,42 +1,45 @@
  
 \begin{gantt}[xunitlength=0.5cm,fontsize=\small,titlefontsize=\small,
-drawledgerline=true]{20}{39}
+drawledgerline=true]{21}{28}
 
     \begin{ganttitle}
-      \titleelement{Semanas}{39}
+      \titleelement{Semanas}{28}
     \end{ganttitle}
     
     \begin{ganttitle}
-      \numtitle{1}{1}{39}{1}
+      \numtitle{1}{1}{28}{1}
     \end{ganttitle}
    
-    \ganttbar{Reunión con los directores}{0}{38}
+    \ganttbar{Asesor\'ia con el director del trabajo de grado}{0}{28}
    
-    \ganttbar{Revisión bibliográfica}{0}{4}
+    \ganttbar{Revisi\'on bibliogr\'afica}{0}{13}
      
-    \ganttgroup{Propuesta de model checking}{4}{20}
-    \ganttgroup{Modelo del sistema}{4}{16}
-    \ganttbar{Sistema de etiquetado}{4}{16}
-    \ganttbar{Estructura \texttt{tcc}}{4}{16}
+    \ganttgroup{Investigaci\'on para desarrollo proyecto de grado}{0}{19}
+    \ganttbar{Investigaci\'on acerca de Modelado de Sistemas (Usando \textbf{SDL y MSC})}{0}{5}
+    \ganttbarcon{Investigaci\'on acerca de Pruebas a Modelos en SDL}{5}{6}
+    \ganttbarcon{Investigaci\'on M\'etodos Formales para Verificaci\'on}{12}{7}
+   
+   % Elaboracion anteproyecto 
+    \ganttgroup{Elaboraci\'on propuesta de trabajo de Grado}{19}{7}
+    \ganttbar{Elaboraci\'on de Ante Proyecto}{19}{3}
+    \ganttbarcon{Entrega de Ante proyecto Facultad de Ingenier\'ia}{23}{1}
+    \ganttbarcon{Aprobaci\'on Ante Proyecto}{24}{3}
     
-    \ganttgroup{Algoritmo de model checking}{20}{4}
-    \ganttbar{Cierre de la fórmula}{20}{4}
-    \ganttbar{Grafo de model checking}{20}{4}
+    \ganttgroup{Desarrollo Caso de Estudio}{6}{21}
+    \ganttbar{Modelado del caso de estudio usando SDL en RTDS}{6}{6}
+    \ganttbarcon{Documentaci\'on del Modelado del caso de estudio}{12}{1}
+    \ganttbarcon{Elaboraci\'on de pruebas usando TTCN-3 al caso de estudio}{15}{6}
+    \ganttbarcon{Documentaci\'on de las pruebas elaboradas al caso de estudio}{21}{1}
+    \ganttbarcon{Verificar distintos m\'odulos del caso de estudio}{22}{3} 
+    \ganttbarcon{Documentaci\'on de la verificaci\'on del caso de estudio}{25}{1} 
     
-    \ganttgroup{Aplicación en electrónica}{18}{16}
-    \ganttbar{Definición del problema}{18}{2}
-    \ganttbarcon{Definición de las propiedades relevantes a verificar}{20}{2}
-    \ganttbarcon{Especificación}{22}{4}
-    \ganttbarcon{Modelamiento}{26}{4}
-    \ganttbarcon{Verificación}{30}{4}
+	% documentacion proyecto    
     
-    \ganttbar{Desarrollo del prototipo}{30}{8}
+   
+    \ganttbar{Organizar,Redactar y Entregar la moograf\'ia a la facultad de Ingenier\'ia}{26}{2}
+   
     
-    \ganttbar{Escritura del borrador del artículo}{34}{4}
-    
-    \ganttbar{Escritura del informe final}{34}{4}
-    
-    \ganttcon{20}{5}{20}{8}
+    %\ganttcon{20}{5}{20}{8}
     
   \end{gantt}
 

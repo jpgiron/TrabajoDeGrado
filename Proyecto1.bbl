@@ -6,6 +6,11 @@ Paul Ammann and Jeff Offutt.
 \newblock {\em {Introduction to Software Testing}}.
 \newblock Cambridge University Press, 1 edition, 2008.
 
+\bibitem[AR11]{Andrus}
+Lehtmets Andrus and Anna Rannaste.
+\newblock {TTCN-3 Basic Introduction}.
+\newblock pages 1--17, 2011.
+
 \bibitem[Ari12]{Arias2012}
 Jaime Arias.
 \newblock {Model Checking for tcc Calculus}.

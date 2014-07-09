@@ -5,7 +5,7 @@ ha venido  incrementando significativamente y por ende la probabilidad que los
 sistemas presenten fallas aumenta~\cite{Schneider2004}. Diversas \'areas de 
 las ciencias de la computaci\'on y matem\'aticas han propuesto diferentes 
 t\'ecnicas que permiten obtener sistemas Hardware/Software con un m\'inimo 
-de errores; dichas t\'enicas estructuran la descripci\'on del sistema a 
+de errores; dichas t\'ecnicas estructuran la descripci\'on del sistema a 
 trav\'es de m\'etodos formales o no formales, los cuales se pueden evaluar 
 implementando desde una prueba de caja negra\footnote{Prueba de caja negra: Es 
 una prueba funcional que consiste en estimular el sistema a probar con las 
@@ -17,8 +17,7 @@ formales.
 Garantizar que un sistema no tenga errores se ha convertido en un reto cada vez 
 m\'as dif\'icil para la ingenier\'ia y las ciencias de las matem\'aticas. 
 Existen sistemas en los cuales no se admiten errores, por ejemplo en los 
-sistemas de aviaci\'on, sistemas de control de plantas nucleares, etc. 
-~\cite{Bowen2000}. Sin embargo, a pesar que existen m\'etodos de 
+sistemas de aviaci\'on, sistemas de control de plantas nucleares, etc.~\cite{Bowen2000}. Sin embargo, a pesar que existen m\'etodos de 
 verificaci\'on, validaci\'on y prueba de modelos, la complejidad de los sistemas 
 se ha venido incrementando con gran rapidez y la forma de detectar errores con 
 m\'etodos separados es insuficiente~\cite{Bowen2002}. 
@@ -30,7 +29,7 @@ estructuras de l\'ogica matem\'atica bien definidas est\'a por encima de hacer
 simples pruebas funcionales, como lo son las de caja negra.  No obstante, 
 recientemente se ha visto que los m\'etodos formales y las pruebas son 
 complementarios, pero lastimosamente aplicar estas t\'ecnicas para 
-garantizar sistemas libres de errores est\'a muy lejos de ser realidad~\cite{Bowen2002, Gaudel1996, Hierons2009}. 
+garantizar sistemas libres de errores est\'a muy lejos de ser realidad~\cite{Gaudel1996,Bowen2002,Hierons2009}. 
 
 Uno de los m\'as famosos m\'etodos formales usados en la industria es el Model 
 Checking~\cite{Mikovski2009}, el cual es una t\'ecnica de verificaci\'on 
@@ -58,20 +57,19 @@ disponible en:  \url{https://www.itu.int/rec/T-REC-Z.120-201102-I/en}}(MSC).
 \item Una vez obtenido el modelo del sistema, mostrar c\'omo a partir de 
 pruebas funcionales de tipo caja negra se puede ejercitar el modelo en los 
 niveles m\'as finos  de abstracci\'on. 
-\item Para comprobar que el sistema sea confiable, se verificar\'a formalmente 
+\item Para comprobar que el sistema sea confiable, se verificar\'an  formalmente 
 algunas de las propiedades del sistema, las cuales se consideren m\'as 
 cr\'iticas para su funcionamiento.
 \item Para ejecutar los anteriores pasos, se tomar\'a como caso de estudio el sistema de parqueaderos de autom\'oviles de la Pontificia Universidad Javeriana 
 Cali; \'este caso ser\'a \'util para mostrar que el trabajo en conjunto de 
-pruebas y verificaciones formales, posibilita implementar sistemas m\'as confiables que pueden 
-ser implementados.
+pruebas y verificaciones formales, posibilita implementar sistemas m\'as confiables.
 
 \end{itemize}
 
-Para la descripci\'on y especificaci\'on del sistema se va a hacer uso de SDL y 
-MSC, para las pruebas funcionales de caja negra se va a utilizar TTCN-3, y 
-finalmente para las verificaciones formales se hace uso de IFx\footnote{M\'as 
-Informaci\'on de la herramienta: \url{http://www-if.imag.fr}}, la cual es una 
+Para la descripci\'on y especificaci\'on del sistema se har\'a uso de SDL y 
+MSC, para las pruebas funcionales de caja negra se utilizar\'a TTCN-3, y 
+finalmente para las verificaciones formales se har\'a uso de IFx\footnote{M\'as 
+Informaci\'on de la herramienta disponible en: \url{http://www-if.imag.fr}}, la cual es una 
 herramienta desarrollada por VERIMAG\footnote{Para mas informaci\'on acerca de VERIMAG consultar la siguiente p\'agina: \url{http://www-verimag.imag.fr/?lang=en}} que por medio del acceso al \'arbol 
 abstracto desde una especificaci\'on de SDL la traslada a un lenguaje intermedio 
 llamado IF,  y a trav\'es de este \'ultimo se puede verificar usando un 
@@ -83,6 +81,6 @@ integrado en la herramienta. Un factor diferenciador que se le quiere dar al
 trabajo de grado es poder hacer uso de los tres lenguajes mencionados 
 anteriormente con un \'unico software que se llama \textit{Real Time Developer 
 Studio}\footnote{M\'as Informaci\'on del proveedor del 
-software:\url{http://www.pragmadev.com}}, RTDS, software desarrollado por la 
+software disponible en:\url{http://www.pragmadev.com}}, RTDS, software desarrollado por la 
 compa\~n\'ia Francesa \textit{Pragmadev}.
 

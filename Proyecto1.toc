@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {1.1}Planteamiento del Problema}{11}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Formulaci\'on}{11}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Sistematizaci\'on}{11}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Posible t\'itulo del trabajo de grado}{11}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Posible t\'itulo del trabajo de grado}{12}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Objetivos}{12}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Objetivo general}{12}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\'ificos}{12}{subsection.1.2.2}
@@ -12,27 +12,27 @@
 \contentsline {chapter}{\numberline {2}MARCO DE REFERENCIA}{15}{chapter.2}
 \contentsline {section}{\numberline {2.1}Marco Te\'orico}{15}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Lenguaje para la Especificaci\'on y Descripci\'on de sistemas distribuidos}{15}{subsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.1.1}Definiciones en SDL}{15}{subsubsection.2.1.1.1}
-\contentsline {subsubsection}{\numberline {2.1.1.2}Notaci\'on de SDL}{16}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Definiciones en SDL}{16}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Notaci\'on de SDL}{17}{subsubsection.2.1.1.2}
 \contentsline {subsubsection}{\numberline {2.1.1.3}Requerimientos de especificaci\'on usando Message Sequence Charts (MSC)}{17}{subsubsection.2.1.1.3}
 \contentsline {subsection}{\numberline {2.1.2}Software de Pruebas}{18}{subsection.2.1.2}
 \contentsline {subsubsection}{\numberline {2.1.2.1}Terminolog\'ia de pruebas}{18}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {2.1.2.2}TTCN-3 (Testing and Test Control Notation Version 3)}{18}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.2}TTCN-3 (Testing and Test Control Notation Version 3)}{19}{subsubsection.2.1.2.2}
 \contentsline {subsubsection}{\numberline {2.1.2.3}Conceptos b\'asicos de TTCN-3}{19}{subsubsection.2.1.2.3}
 \contentsline {subsubsection}{\numberline {2.1.2.4}Modelo arquitect\'onico del Sistema de Prueba en TTCN-3}{20}{subsubsection.2.1.2.4}
 \contentsline {subsection}{\numberline {2.1.3}Verificaciones Formales}{21}{subsection.2.1.3}
 \contentsline {subsubsection}{\numberline {2.1.3.1}M\'etodos Formales}{21}{subsubsection.2.1.3.1}
-\contentsline {subsubsection}{\numberline {2.1.3.2}Verificaci\'on Formal Hardware}{21}{subsubsection.2.1.3.2}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Verificaci\'on Formal de Hardware}{21}{subsubsection.2.1.3.2}
 \contentsline {subsubsection}{\numberline {2.1.3.3}Model Checking}{22}{subsubsection.2.1.3.3}
-\contentsline {subsubsection}{\numberline {2.1.3.4}Herramienta IFx}{22}{subsubsection.2.1.3.4}
-\contentsline {subsubsection}{\numberline {2.1.3.5}Conceptos b\'asicos de IFx}{23}{subsubsection.2.1.3.5}
+\contentsline {subsubsection}{\numberline {2.1.3.4}Herramienta IFx}{23}{subsubsection.2.1.3.4}
+\contentsline {subsubsection}{\numberline {2.1.3.5}Conceptos b\'asicos de IFx}{24}{subsubsection.2.1.3.5}
 \contentsline {subsection}{\numberline {2.1.4}Trabajos Relacionados}{24}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Metodolog\'ia de la investigaci\'on}{25}{section.2.2}
-\contentsline {section}{\numberline {2.3}Resultados esperados}{25}{section.2.3}
-\contentsline {section}{\numberline {2.4}Descripci\'on de recursos}{25}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Director}{25}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Recursos T\'ecnicos}{25}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.2}Metodolog\'ia de la investigaci\'on}{26}{section.2.2}
+\contentsline {section}{\numberline {2.3}Resultados esperados}{26}{section.2.3}
+\contentsline {section}{\numberline {2.4}Descripci\'on de recursos}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Director}{26}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Recursos T\'ecnicos}{26}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Presupuesto}{26}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Tabla de Contenido}{26}{section.2.5}
-\contentsline {section}{\numberline {2.6}Cronograma}{28}{section.2.6}
+\contentsline {section}{\numberline {2.5}Tabla de Contenido}{27}{section.2.5}
+\contentsline {section}{\numberline {2.6}Cronograma}{27}{section.2.6}
 \contentsline {chapter}{Bibliograf\'{\i }a}{29}{chapter*.3}

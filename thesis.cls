@@ -341,16 +341,19 @@
   \vskip 60\p@
   % Edited by C. Olarte
   \begin{center}
-    Pontificia Universidad Javeriana Cali\\
-    Facultad de Ingenier\'ia.\\
+    \large Pontificia Universidad Javeriana Cali\\
+    \vspace{0.5 cm}
+    \large Facultad de Ingenier\'ia\\
   \ifthenelse{\NOT{\equal{\directorcarreraelectronica}{}}}{
-    Ingenier\'ia Electr\'onica. \\
+	\vspace{0.5 cm}    
+    \large Ingenier\'ia Electr\'onica \\
   }{}
   %\ifthenelse{\NOT{\equal{\directorcarrerasistemas}{}}}
   %{
   %  Ingenier\'ia de Sistemas y Computaci\'on.\\
   %}{}
-    Anteproyecto de Grado. 
+  	\vspace{0.5 cm}
+    \large Anteproyecto de Trabajo de Grado
   \end{center}
   \vspace{2cm}
   \begin{center}%

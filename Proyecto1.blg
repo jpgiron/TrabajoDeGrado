@@ -1,24 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Proyecto1.aux
 The style file: alpha.bst
 Database file #1: library.bib
-I was expecting a `,' or a `}'---line 423 of file library.bib
+Warning--entry type for "ETSI" isn't style-file defined
+--line 172 of file library.bib
+I was expecting a `,' or a `}'---line 433 of file library.bib
  : @misc{ISO/IEC 
  :               12119,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 432 of file library.bib
+I was expecting a `,' or a `}'---line 442 of file library.bib
  : @misc{ISO 
  :           9241,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 449 of file library.bib
+I was expecting a `,' or a `}'---line 459 of file library.bib
  : @misc{ISO/IEC 
  :               25000,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 454 of file library.bib
+I was expecting a `,' or a `}'---line 464 of file library.bib
  : @misc{ISO/IEC 
  :               25010,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in IEEE1994
 Warning--to sort, need author or key in ISOIEC29119
+Warning--empty booktitle in Andrus
 Warning--can't use both author and editor fields in Bozga2004
 Warning--can't use both author and editor fields in Fix2008
 Warning--can't use both author and editor fields in Gaudel1996
